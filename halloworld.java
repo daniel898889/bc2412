@@ -14,6 +14,9 @@ public class halloworld {
     // variable java naming covension 
     // caml case; dayOfweek, y2
 
+   //  int = x100 
+
+
     //re-assigmentg 
     x = 101; // re-assign 101 to x
     x = x + 10; // right 101 + 10, left assign 111 to x
@@ -67,6 +70,62 @@ public class halloworld {
     
     // int > double = upcase
     // double > int = downcase 
+
+    // ! sotre integar. Jave: int, byte, short, short, long 
+    int value = 10000000;
+    int value2 = 1_000_000;
+    // int maxIntegar = 2_200_000_000;
+    // int miniIntegar = 
+
+    // !byte -128 to 127 
+    byte b1 = -128;
+    byte b2 = 127;
+
+    // !short -32768 to 32767
+    short s1 = -32768;
+    short s2 = 32767;
+
+    // !long  
+    // 2_147_483_648 -> int value 
+    // int value to double value 
+
+    // long l1 = 2147483648
+     long l1 = 2147483648L;
+
+    // ! declare a hardcode long value, you should always add L
+
+    // float = double 
+    double d1 = 10.2; // 10.2 = double value 
+    double d2 = 10.2d; // 10.2d = double value 
+    float f1 = 10.2f;// 10.2f = float value 
+    
+      char c = '!';
+      char c2 = '1';
+      char c3 = ' '; // atleast 1 character
+
+
+      // boolean 
+     boolean b = true;
+     boolean b10 = false;
+
+     boolean isSmoker = false;
+     int age = 68;
+     boolean isElderly = age > 67; 
+     System.out.println(true);
+
+     int age2 = 18;
+     boolean isadult = age >= 18;
+     System.out.println(isadult);
+
+
+
+
+
+
+
+
+
+
 } 
 }
 
