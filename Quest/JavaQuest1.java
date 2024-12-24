@@ -82,5 +82,17 @@ public class JavaQuest1 {
     double result1 = e - o * x / y;
     
     System.out.println("The variable result is " + 3);
+
+
+
+
+    for(int i = 0; i < 99; i++){
+      for(int j = i; j < 5-1; j++)
+        System.out.print(" ");
+      for(int j = 0; j < 2*i+1; j++)
+        System.out.print("*");
+
+        System.out.print("\n");
+}
   }
 }
