@@ -1,6 +1,7 @@
-package WEAPONS;
+
 public interface Weapons {
-void UseScope();
-void Shoot();        
+void withScope();
+void withBullet();        
 void Color(WeaponColor color); 
+void Stanby();
 }

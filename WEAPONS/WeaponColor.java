@@ -1,8 +1,9 @@
 
 enum WeaponColor {
-RED,
+RED_BLOWN,
 BLUE,
 GREEN,
 BLACK,
+FADE,
 WHITE
 }
